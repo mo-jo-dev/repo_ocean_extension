@@ -1,0 +1,190 @@
+        body{
+            background-image: url('../img/background.png');z-index: 1;
+        }
+
+        #search{
+            width: 50%;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .main_btn{
+            border-radius: 10px;
+            background-color: #bb99ff;
+        }
+
+        .main_btn:hover{
+            background-color: rgb(190, 255, 255);
+            transition: background 1s;
+        }
+
+        button{
+            cursor: pointer;
+            padding: 10px;
+        }
+
+        button:active{
+            transform: scale(0.95);
+        }
+
+        input:focus,button:focus{
+           outline: none;
+        }
+
+        .form_ip{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header>h1{
+            text-align: center;
+            color: #fff;
+        }
+
+        .user{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 30px;
+            border: 1px gray solid;
+            background-color: rgba(0, 0, 0, 0.103);
+        }
+
+        .user:hover{
+            background-color: rgba(0, 0, 0, 0.253);
+        }
+
+        #user_image{
+            padding: 20px;
+        }
+
+        .u_img{
+            height:250px;
+            width: 250px;
+            border-radius: 100%;
+            border: 1px solid gray;
+        }
+
+        #user_info{
+            text-align: left;
+            color: white;
+        }
+
+        #user_repo{
+            margin: 50px;
+            display: grid;
+            row-gap: 50px;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .repo{
+            border: 1px solid black;
+            padding: 0 0 0 20px;
+            margin: 5px;
+            overflow: hidden;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.103);
+        }
+
+        .repo:hover{
+            background-color: rgba(0, 0, 0, 0.253);
+        }
+
+        .container {
+            margin: 30px auto;
+            max-width: 100%;
+            width: 500px;
+        }
+        
+        .container h2 {
+            font-weight: 300;
+        }
+        
+        .container p {
+            text-align: center;
+        }
+        
+        .centered {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .centered button {
+            transform: scale(1.3);
+            margin: 15px;
+            cursor:pointer;
+        }
+
+        .btn {
+            background-color: #8d56fd;
+            border: 0;
+            border-radius: 10px;
+            color: #fff;
+            padding: 4px 10px;
+        }
+
+        .show_page{
+            display:block; 
+            margin:0 auto; 
+            color: white; 
+            padding: 3px;
+            border-radius: 5px; 
+            background-color:rgb(112, 112, 243); 
+            text-align: center; 
+            width: 15px
+        }
+
+        .repo_link{
+            text-decoration: none;
+            color:burlywood;
+        }
+
+        .repo_lang{
+            background-color: rgb(65, 154, 255);
+            color: rgb(0, 0, 0);
+            padding: 8px;
+            width: fit-content;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .dummy_text{
+            text-align: left;
+            padding-right: 55px;
+            color: white;
+        }
+
+        .repo_attribute{
+            color: rgb(255, 147, 147);
+        }
+
+        .repo_attr{
+            color: rgb(193, 250, 78);
+        }
+
+        .repo_user_name{
+            color: rgb(228, 224, 0);
+        }
+
+        @media only screen and (max-width: 800px) {
+            #user_repo {
+                margin: 10px;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            #user_image{
+                margin: 0 auto;
+            }
+
+            .user{
+                margin: 10px;
+            }
+
+            #user_info{
+                text-align: left;
+                padding-left: 20px;
+            }
+        }
