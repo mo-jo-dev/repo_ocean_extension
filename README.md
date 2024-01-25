@@ -1,17 +1,8 @@
-# Github Repo Ocean
-Now Check your Repositories anywhere and anytime with just your Github username
-
-## How to access the Website:
-Just paste the following link in any of your browser and you will be able to access the ocean of 200 million Github Repositories.
-
-```
-
-https://mo-jo-dev.github.io/Github_Repo_Ocean/
-
-```
+# Github Repo Extension
+Now Check your Repositories anywhere and anytime with just your Github username in my chrome extension
 
 ## Project Setup
-The local setup of this project is simple. Just follow the given steps to run the website on your local device:
+The local setup of this project is simple. Just follow the given steps to run the chrome extension on your local device:
 - Clone the repository with the given url 
     
   ```
@@ -20,6 +11,14 @@ The local setup of this project is simple. Just follow the given steps to run th
 
   ```
         
-- Now, there are two ways to run the file:
-        - Open the cloned folder and open the `index.html` file. Hooray! you have just opened the webpage in your device.
-        - You can open the VS Code editor and there using an extension named `live server` you will get the access to `PORT: 5500` and you will get the web page
+- Now, there are two ways to run project as a website:
+    - Open the cloned folder and open the `index.html` file. Hooray! you have just opened the webpage in your device.
+    - You can open the VS Code editor and there using an extension named `live server` you will get the access to `PORT: 5500` and you will get the web page
+- To run as an extension, follow the steps:
+    - In your chrome browser, go to the 3 dots in top right corner.
+    - Hover over Extensions & Click on `Manage Extensions`
+    - Turn on the `Developer mode` in top right corner
+    - Now, in the same window click on `Load unpacked` in top left corner
+    - You have to select the folder `repo_ocean_extension` that you cloned.
+    - Hooray!! your extension is ready
+    - Just click on the extensions icon and enjoy.
